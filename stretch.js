@@ -29,16 +29,16 @@ function setup() {
   world = engine.world;
   // Engine.run(engine);
 
-  boundaries.push(new Boundary(width / 2, height, width, 5, 0));
-  boundaries.push(new Boundary(0, height, 10, height * 2, 0));
-  boundaries.push(new Boundary(width, height, 10, height * 2, 0));
+  boundaries.push(new Boundary(width / 2, height, width, 10, 0));
+  boundaries.push(new Boundary(0, height, 20, height * 2, 0));
+  boundaries.push(new Boundary(width, height, 20, height * 2, 0));
 
   // boundaries.push(new Boundary(200, height/2, width, 50, -0.5));
 
   // Composite.add(world, ground);
 }
 
-function mousePressed() {
+function mouseDragged() {
   circles.push(new Circle(mouseX, mouseY, random(100, 120)));
 }
 
