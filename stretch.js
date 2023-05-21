@@ -24,7 +24,7 @@ var ground;
 // Render.run(render);
 
 function setup() {
-  createCanvas(2300, 2000);
+  createCanvas(2300, 1286);
   engine = Engine.create();
   world = engine.world;
   // Engine.run(engine);
