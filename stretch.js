@@ -24,12 +24,12 @@ var ground;
 // Render.run(render);
 
 function setup() {
-  createCanvas(2000, 1200);
+  createCanvas(2300, 1200);
   engine = Engine.create();
   world = engine.world;
   // Engine.run(engine);
 
-  boundaries.push(new Boundary(width / 2, height, width, 10, 0));
+  boundaries.push(new Boundary(width / 2, height, width, 5, 0));
   boundaries.push(new Boundary(0, height, 10, height * 2, 0));
   boundaries.push(new Boundary(width, height, 10, height * 2, 0));
 
